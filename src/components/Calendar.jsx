@@ -28,7 +28,6 @@ function Calendar() {
               return(
               <li key = {i}>{i + 1}</li>
               )
-            
             })
           }
         </ul>

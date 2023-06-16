@@ -1,6 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
+.calendar{
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 400px;
+  font-size: 1rem;
+  background-color: black;
+}
+.calendar header{
+  width: 400px;
+  display: flex;
+
+
+}
+
+.calendar ul.date{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  padding: 0px;
+}
+.calendar ul.date li{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5em; /*글자 반칸 만큼 여백*/
+}
+.calendar header h2{ 
+  margin: 0px;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-right: 1rem;;
+}
+.calendar header span{}
