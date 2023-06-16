@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com");
+@import url('https://fonts.cdnfonts.com/css/diablo');
 :root {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Diablo', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }

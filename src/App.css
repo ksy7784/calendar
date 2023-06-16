@@ -16,18 +16,18 @@
 .calendar{
   text-align: center;
   justify-content: center;
-  color: white;
+  color:white;
   width: 400px;
-  font-size: 1rem;
+  font-size: 1em;
   background-color: black;
-  padding: 1rem;
+  padding: 1em;
 
 }
 .calendar header{
   width: 400px;
   display: flex;
-
-
+  justify-content: center;
+  gap: 10px;
 }
 
 .calendar ul.date{
@@ -42,9 +42,17 @@
   padding: 0.5em; /*글자 반칸 만큼 여백*/
 }
 .calendar header h2{ 
-  margin: 0px;
-  font-size: 2rem;
-  line-height: 2rem;
-  margin-right: 1rem;;
+ margin: 0px;
+ padding: 0px;
 }
-.calendar header span{}
+.calendar header span{
+  
+}
+.btn-group .btn{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 10px;
+  font-family: 'Diablo', sans-serif;
+}
+
